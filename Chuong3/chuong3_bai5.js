@@ -1,5 +1,5 @@
 var n = nhap(5),
-    x = GT(a);
+    x = GT(n);
 
 function nhap(x) {
     return x;
