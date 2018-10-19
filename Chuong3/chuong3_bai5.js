@@ -1,13 +1,13 @@
-var a = nhap(5),
-    x = GT(a);
+var n = nhap(5),
+    x = GT(n);
 
 function nhap(x) {
     return x;
 }
 
-function GT(a) {
+function GT(n) {
     var s = 1;
-    for (var i = 1; i <= a; i++) {
+    for (var i = 1; i <= n; i++) {
         s *= i;
     }
     return s;
